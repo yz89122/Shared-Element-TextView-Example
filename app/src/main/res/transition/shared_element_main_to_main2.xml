@@ -10,6 +10,6 @@
         <transition class="tw.imyz.sharedelementstransitiontest.transition.TextResize" />
 
         <!-- duration for demo -->
-        <changeBounds android:duration="5000"/>
+        <changeBounds android:duration="3000"/>
     </transitionSet>
 </transitionSet>

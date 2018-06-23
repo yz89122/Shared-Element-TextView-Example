@@ -188,7 +188,7 @@ public class TextResize extends Transition {
         }
 
         // duration for demo
-        animator.setDuration(5000);
+        animator.setDuration(3000);
 
         final float finalFontSize = endFontSize;
         AnimatorListenerAdapter listener = new AnimatorListenerAdapter() {

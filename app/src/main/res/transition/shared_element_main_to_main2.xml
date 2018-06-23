@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:targetApi="lollipop">
+    <transitionSet>
+        <targets>
+            <target android:targetId="@id/tv_2" />
+        </targets>
+        <transition class="tw.imyz.sharedelementstransitiontest.transition.TextResize" />
+
+        <!-- duration for demo -->
+        <changeBounds android:duration="5000"/>
+    </transitionSet>
+</transitionSet>
